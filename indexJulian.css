@@ -1,0 +1,56 @@
+  body {
+    background-image: url("https://media0.giphy.com/avatars/100soft/WahNEDdlGjRZ.gif");
+    background-repeat: no-repeat;
+    background-size:1675px 1180px;
+
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+    h1{
+      background-color: Purple;
+      Text-align: Left;
+      font-family: "Times New Roman", "Times", "serif"
+      font-style:italic;
+      font-size: 50px
+    }
+
+    h2{
+      background-color: Green;
+      text-align: Left;
+      font-style: "Calibri", Italic;
+      font-size: 25px
+    }
+
+    p{
+      background-color: Yellow;
+      padding: Yellow; width:100px:height:100px
+      Font-family: "Times New Roman"
+      font-size: 100px
+
+
+
+
+}
+
+
+.Julian{
+  color:Black;
+}
