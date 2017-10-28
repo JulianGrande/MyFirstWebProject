@@ -1,7 +1,8 @@
   body {
-    background-image: url("https://media0.giphy.com/avatars/100soft/WahNEDdlGjRZ.gif");
+    text-align: center;
+    background-image: url("http://www.photos-public-domain.com/wp-content/uploads/2012/06/blue-gray-fabric-with-floral-pattern-texture.jpg");
     background-repeat: no-repeat;
-    background-size:1675px 1180px;
+    background-size:cover;
 
   }
   ul {
@@ -25,25 +26,29 @@ li a {
 }
 
     h1{
-      background-color: Purple;
-      Text-align: Left;
+      text-align: center;
       font-family: "Times New Roman", "Times", "serif"
       font-style:italic;
-      font-size: 50px
+      font-size: 70px
     }
 
+    img{
+      opacity: 0.2
+      filter: alpha(opacity=50); /* For IE8 and Earlier */ 
+  border-radius: 50%;
+  img-align: left;
+}
+
     h2{
-      background-color: Green;
-      text-align: Left;
+      text-align: center;
       font-style: "Calibri", Italic;
-      font-size: 25px
+      font-size: 55px
     }
 
     p{
-      background-color: Yellow;
-      padding: Yellow; width:100px:height:100px
-      Font-family: "Times New Roman"
-      font-size: 100px
+      text-align: center;
+      Font-family: "Calibri"
+      font-size: 25px
 
 
 
