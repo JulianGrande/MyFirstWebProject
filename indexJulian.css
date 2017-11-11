@@ -51,11 +51,16 @@ li a {
       text-align: center;
       Font-family: "Times New Roman", "Times", "serif"
       font-size: 35px
+    }
 
+    #button{
+      text-shadow: 10px;
+      font-size: 24px;
+      width: 300px;
+      height: 100px;
+      border-radius: 20%;
 
-
-
-}
+    }
 
 
 .Julian{

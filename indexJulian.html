@@ -2,36 +2,16 @@
 <head>
   <link rel="stylesheet" href="indexJulian.css">
 <title> Home </title>
-
-<script>
-
-function nameChecker(name){
-
-  if(name == "Larry"){
-    alert("Welcome Larry");
-  }
-  else if(name == "Joseph"){
-    alert("Welcome Joseph");
-  }
-  else if(name == "Julian"){
-    alert("Whats Up Big Daddy Julian");
-  }
-  else{
-    alert("Get out");
-  }
-}
-
-var userName = prompt("Input name ");
-nameChecker(userName);
-
-</script>
+</head>
 <body>
   <ul>
   <li><a class="active" href="#home">Home</a></li>
+  <li><a class="active" href="#aboutme">About me</a></li>
 
 </ul>
   <div class=Julian>
-<h1> <b> Julian Grande </h1><br>
+<h1 id ="name"> <b></h1><br>
+<button id="button" onclick="revealName()">Click to find out who I am</button>
 <h2> <i> Orange High School </i></h2>
 <p> Hi! i'm Julian and im interested in video games, anime, cartoons, technology, and memes! my favorite video games are <b> Dota, Vainglory, League of Legends, and Overwatch</b> <br> some of my favorite anime's are Naruto, One Piece, and Dragon ball Z</p>
 <br> <left>
@@ -44,5 +24,6 @@ nameChecker(userName);
 <br>
 </div>
 </left>
+<script src="app.js"></script>
 </body>
 </html>
